@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <style>
+        .podswietlenie { background-color: yellow; }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body onload="init()">
+
+    <section>
+        <h2>2. Silnia</h2>
+        <input type="number" id="inputSilnia" placeholder="Podaj liczbę" />
+        <button onclick="obliczSilnia()">Oblicz Silnię</button>
+        <p id="wynikSilnia"></p>
+    </section>
+
+    <section>
+        <h2>4. Zmiana koloru przycisku</h2>
+        <button class="przyciskKolor" onclick="zmienKolor(this)">Przycisk 1</button>
+        <button class="przyciskKolor" onclick="zmienKolor(this)">Przycisk 2</button>
+        <button class="przyciskKolor" onclick="zmienKolor(this)">Przycisk 3</button>
+    </section>
+
+    <section>
+        <h2>5. Widoczność elementu</h2>
+        <button onclick="zmienWidocznosc()">Pokaż/Ukryj Element</button>
+        <p id="elementWidocznosc">To jest element do ukrycia/pokazania.</p>
+    </section>
+
+    <section>
+        <h2>6. Lista wartości</h2>
+        <input type="text" id="inputLista" placeholder="Wpisz wartość" />
+        <button onclick="dodajDoListy()">Dodaj do listy</button>
+        <ul id="listaWartosci"></ul>
+    </section>
+
+    <section>
+        <h2>7. Dodawanie do tabeli</h2>
+        <input type="text" id="inputImie" placeholder="Imię" />
+        <input type="text" id="inputNazwisko" placeholder="Nazwisko" />
+        <button onclick="dodajDoTabeli()">Dodaj do tabeli</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaImionaNazwiska">
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>8. Konwersja temperatury</h2>
+        <input type="number" id="inputTemp" placeholder="Temperatura" />
+        <button onclick="konwertujNaF()">Na Fahrenheita</button>
+        <button onclick="konwertujNaC()">Na Celsjusza</button>
+        <p id="wynikTemp"></p>
+    </section>
+
+    <section class="kalkulator">
+        <h2>10. Kalkulator</h2>
+        <input type="number" id="inputKalk1" placeholder="Liczba 1" />
+        <input type="number" id="inputKalk2" placeholder="Liczba 2" />
+        <button onclick="kalkuluj('dodaj')">Dodaj</button>
+        <button onclick="kalkuluj('odejmij')">Odejmij</button>
+        <button onclick="kalkuluj('mnozenie')">Mnożenie</button>
+        <button onclick="kalkuluj('dzielenie')">Dzielenie</button>
+        <button onclick="kalkuluj('potegowanie')">Potęgowanie</button>
+        <p id="wynikKalk"></p>
+    </section>
+
+</body>
+</html>
