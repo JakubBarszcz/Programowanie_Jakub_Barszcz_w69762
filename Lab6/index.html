@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Rejestracyjny</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="formularzRejestracyjny">
+        <div>
+            <label for="imie">Imię:</label>
+            <input type="text" id="imie" name="imie" required>
+            <span class="blad" id="bladImie"></span>
+        </div>
+        <div>
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" id="nazwisko" name="nazwisko" required>
+            <span class="blad" id="bladNazwisko"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="blad" id="bladEmail"></span>
+        </div>
+        <div>
+            <label for="haslo">Hasło:</label>
+            <input type="password" id="haslo" name="haslo" required>
+            <span class="blad" id="bladHaslo"></span>
+        </div>
+        <div>
+            <label for="powtorzHaslo">Powtórz hasło:</label>
+            <input type="password" id="powtorzHaslo" name="powtorzHaslo" required>
+            <span class="blad" id="bladPowtorzHaslo"></span>
+        </div>
+        <div>
+            <label for="plec">Płeć:</label>
+            <select id="plec" name="plec" required>
+                <option value="">Wybierz</option>
+                <option value="mezczyzna">Mężczyzna</option>
+                <option value="kobieta">Kobieta</option>
+                <option value="inne">Inne</option>
+            </select>
+            <span class="blad" id="bladPlec"></span>
+        </div>
+        <div>
+            <label for="telefon">Telefon:</label>
+            <input type="text" id="telefon" name="telefon" required>
+            <span class="blad" id="bladTelefon"></span>
+        </div>
+        <div>
+            <label for="dataUrodzenia">Data Urodzenia:</label>
+            <input type="date" id="dataUrodzenia" name="dataUrodzenia" required>
+            <span class="blad" id="bladDataUrodzenia"></span>
+        </div>
+        <div>
+            <label for="kraj">Kraj:</label>
+            <select id="kraj" name="kraj" required>
+                <option value="">Wybierz</option>
+                <option value="Polska">Polska</option>
+                <option value="Inny">Inny</option>
+            </select>
+            <span class="blad" id="bladKraj"></span>
+        </div>
+        <div>
+            <label for="wojewodztwo">Województwo:</label>
+            <select id="wojewodztwo" name="wojewodztwo" disabled>
+                <option value="">Wybierz</option>
+                <option value="Dolnoslaskie">Dolnośląskie</option>
+                <option value="KujawskoPomorskie">Kujawsko-pomorskie</option>
+                <option value="Lubelskie">Lubelskie</option>
+                <option value="Lubuskie">Lubuskie</option>
+                <option value="Lodzkie">Łódzkie</option>
+                <option value="Malopolskie">Małopolskie</option>
+                <option value="Mazowieckie">Mazowieckie</option>
+                <option value="Opolskie">Opolskie</option>
+                <option value="Podkarpackie">Podkarpackie</option>
+                <option value="Podlaskie">Podlaskie</option>
+                <option value="Pomorskie">Pomorskie</option>
+                <option value="Slaskie">Śląskie</option>
+                <option value="Swietokrzyskie">Świętokrzyskie</option>
+                <option value="WarminskoMazurskie">Warmińsko-mazurskie</option>
+                <option value="Wielkopolskie">Wielkopolskie</option>
+                <option value="Zachodniopomorskie">Zachodniopomorskie</option>
+            </select>
+            <span class="blad" id="bladWojewodztwo"></span>
+        </div>
+        <div>
+            <label for="adresZamieszkania">Adres zamieszkania:</label>
+            <input type="text" id="adresZamieszkania" name="adresZamieszkania" disabled required>
+            <span class="blad" id="bladAdresZamieszkania"></span>
+        </div>
+        <div>
+            <label for="adresKorespondencyjnyTakiSam">
+                <input type="checkbox" id="adresKorespondencyjnyTakiSam" name="adresKorespondencyjnyTakiSam" checked> Adres korespondencyjny taki sam jak adres zamieszkania
+            </label>
+        </div>
+        <div id="adresKorespondencyjnyPole" style="display: none;">
+            <label for="adresKorespondencyjny">Adres korespondencyjny:</label>
+            <input type="text" id="adresKorespondencyjny" name="adresKorespondencyjny" disabled>
+            <span class="blad" id="bladAdresKorespondencyjny"></span>
+        </div>
+        <div>
+            <button type="submit">Zapisz</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
