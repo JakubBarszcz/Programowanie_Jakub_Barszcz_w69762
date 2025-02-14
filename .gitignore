@@ -2,5 +2,10 @@
 # Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/Programowanie_Jakub_Barszcz_w69762/FileContentIndex/669988cb-0c15-439f-bc65-6da72cb9318b.vsidx
-*.vsidx
+/.vs/Programowanie_Jakub_Barszcz_w69762/FileContentIndex
+/.vs/Programowanie_Jakub_Barszcz_w69762/v17/.wsuo
+/.vs/Programowanie_Jakub_Barszcz_w69762/v17/DocumentLayout.backup.json
+/.vs/Programowanie_Jakub_Barszcz_w69762/v17/DocumentLayout.json
+/.vs/slnx.sqlite
+*.sqlite-journal
+/.vs/VSWorkspaceState.json
