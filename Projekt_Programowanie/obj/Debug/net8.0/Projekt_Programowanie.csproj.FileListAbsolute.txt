@@ -1,0 +1,15 @@
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\bin\Debug\net8.0\Projekt_Programowanie.exe
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\bin\Debug\net8.0\Projekt_Programowanie.deps.json
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\bin\Debug\net8.0\Projekt_Programowanie.runtimeconfig.json
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\bin\Debug\net8.0\Projekt_Programowanie.dll
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\bin\Debug\net8.0\Projekt_Programowanie.pdb
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.AssemblyInfoInputs.cache
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.AssemblyInfo.cs
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.sourcelink.json
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.dll
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\refint\Projekt_Programowanie.dll
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.pdb
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\Projekt_Programowanie.genruntimeconfig.cache
+C:\Users\Jakub\Documents\Programowanie\Programowanie_Jakub_Barszcz_w69762\Projekt_Programowanie\obj\Debug\net8.0\ref\Projekt_Programowanie.dll
