@@ -1,0 +1,56 @@
+% **** Szablon pracy magisterskiej, licencjackiej lub inżynierskiej ****
+
+\documentclass[polish,12pt,twoside,a4paper]{report}
+
+\input{style.tex}
+
+%definicja przydatnych poleceń
+\newcommand{\wydzial}{KOLEGIUM INFORMATYKI STOSOWANEJ}
+\newcommand{\kierunek}{Kierunek: INFORMATYKA}
+\newcommand{\specjalnosc}{Specjalność: {Inżynieria Danych (ID)}}
+\newcommand{\autor}{Jakub Barszcz}
+\newcommand{\album}{Nr albumu studenta w69762}
+\newcommand{\temat}{Aplikacja Konsolowa do Zarządzania Sklepem}
+\newcommand{\promotor}{mgr inż. Ewa Żesławska}
+\newcommand{\typpracy}{Praca projektowa programowanie obiekotwe C\#}
+\newcommand{\miasto}{Rzeszów}
+\newcommand{\rok}{2025}
+
+\begin{document}
+
+% *************** Włączenie definicji pierwszych stron ***************
+\input{front.tex}
+
+
+% *************** Część główna pracy ***************
+\input{wstep.tex}
+\addcontentsline{toc}{chapter}{Wstęp}
+\newpage
+\input{R1.tex}
+\newpage
+\input{R2.tex}
+\newpage
+\input{R3.tex}
+\newpage
+\input{R4.tex}
+\newpage
+\input{R5.tex}
+\newpage
+\input{R6.tex}
+\newpage
+
+% *************** Bibliografia ***************
+\begin{thebibliography}{6}
+    \item Microsoft, \textit{Dokumentacja C\#}. \url{https://learn.microsoft.com/pl-pl/dotnet/csharp/}
+    \item Microsoft, \textit{Dokumentacja platformy .NET}. \url{https://learn.microsoft.com/pl-pl/dotnet/}
+    \item Gamma, E., Helm, R., Johnson, R., Vlissides, J., \textit{Design Patterns: Elements of Reusable Object-Oriented Software}. Addison-Wesley.
+    \item Dokumentacja narzędzi: Visual Studio, Rider.
+\end{thebibliography}
+
+\newpage
+
+% *************** Zakończenie ***************
+\input{back.tex}
+
+\end{document}
+% *************** Koniec pliku szablon.tex ***************

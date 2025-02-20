@@ -1,0 +1,29 @@
+\chapter{Opis założeń projektu}
+
+\section{Cele projektu}
+Projekt „System Zarządzania Sklepem” ma na celu stworzenie prostego, ale funkcjonalnego narzędzia wspomagającego codzienne operacje w małym sklepie. Obecnie wiele sklepów opiera swoje działania na ręcznym prowadzeniu ewidencji, co wiąże się z ryzykiem wystąpienia błędów, niespójności danych oraz opóźnień w obsłudze klientów. Źródłem tego problemu jest tradycyjna dokumentacja papierowa lub nieefektywne systemy elektroniczne, które nie pozwalają na szybką aktualizację stanów magazynowych. Problem ten jest istotny, gdyż nieprawidłowe zarządzanie zapasami może prowadzić do strat finansowych oraz obniżenia jakości obsługi, co potwierdzają badania branżowe oraz opinie przedsiębiorców. Aby skutecznie rozwiązać ten problem, projekt zakłada wdrożenie systemu opartego na nowoczesnych rozwiązaniach programistycznych. System ma zapewnić automatyzację procesów związanych z zarządzaniem produktami, rejestracją klientów oraz realizacją sprzedaży, a wszystkie dane będą przechowywane w plikach tekstowych, co umożliwi łatwy dostęp, aktualizację i archiwizację informacji. Realizacja projektu przebiegać będzie etapami: analiza wymagań, projektowanie architektury, implementacja (aplikacja konsolowa w języku C\#), testowanie oraz zapis danych do plików. Wynikiem prac będzie działający system, który usprawni zarządzanie zasobami sklepowymi, zminimalizuje błędy operacyjne oraz umożliwi szybkie podejmowanie decyzji na podstawie aktualnych danych.
+
+\section{Wymagania funkcjonalne i niefunkcjonalne}
+
+\subsection*{Wymagania funkcjonalne}
+System powinien umożliwiać:
+\begin{itemize}
+    \item Zarządzanie produktami – dodawanie, edycja i usuwanie produktów oraz kontrolę stanów magazynowych.
+    \item Rejestrację klientów – wprowadzanie danych (imię, nazwisko, saldo portfela) oraz możliwość ich późniejszej modyfikacji.
+    \item Realizację sprzedaży detalicznej, w której klient nie musi być zarejestrowany; system oblicza sumę do zapłaty, przyjmuje wpłaconą kwotę i automatycznie wylicza wydaną resztę.
+    \item Realizację sprzedaży hurtowej, dedykowanej zarejestrowanym klientom, z automatyczną aktualizacją salda.
+    \item Wyświetlanie listy produktów, klientów oraz historii zamówień.
+    \item Persistencję danych – wczytywanie informacji z plików tekstowych przy starcie programu oraz zapisywanie aktualizacji po zakończeniu pracy.
+\end{itemize}
+
+\subsection*{Wymagania niefunkcjonalne}
+System musi spełniać następujące wymagania jakościowe:
+\begin{itemize}
+    \item Prostota i intuicyjność – interfejs konsolowy powinien być czytelny i łatwy w obsłudze.
+    \item Przenośność – aplikacja musi działać na różnych systemach operacyjnych z zainstalowanym środowiskiem .NET.
+    \item Wydajność – operacje na danych mają być realizowane bez zauważalnych opóźnień.
+    \item Skalowalność – rozwiązanie powinno umożliwiać łatwą rozbudowę o dodatkowe funkcjonalności w przyszłości.
+    \item Bezpieczeństwo danych – mechanizmy odczytu i zapisu do plików muszą zapewniać spójność i integralność informacji.
+\end{itemize}
+
+% ********** Koniec rozdziału **********
